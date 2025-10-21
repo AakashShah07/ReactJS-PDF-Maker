@@ -75,6 +75,35 @@ export default function Invoice() {
           </p>
         </div>
 
+          <div className="flex flex-col items-center mt-10">
+          <p
+            className="text-2xl mb-2 font-[800]
+"
+          >
+            District Bar Association Allahabad
+          </p>
+        </div>
+
+
+          <div className="flex flex-col items-center mt-10">
+          <p
+            className="text-2xl mb-2 font-[800]
+"
+          >
+            District Bar Association Allahabad
+          </p>
+        </div>
+
+
+          <div className="flex flex-col items-center mt-10">
+          <p
+            className="text-2xl mb-2 font-[800]
+"
+          >
+            District Bar Association Allahabad
+          </p>
+        </div>
+
         <div className="grid grid-cols-4 gap-6 background-none mt-10">
           {/* Card 1 */}
           <div className=" p-4 text-start ">
