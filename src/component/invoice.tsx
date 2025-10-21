@@ -79,7 +79,7 @@ const handleDownloadPdf = async () => {
       minute: "2-digit",
       hour12: false,
     });
-    pdf.setFontSize(10);
+    pdf.setFontSize(8);
     pdf.text(currentDate, 10, 20); // 10px from left, 20px from top
 
     // Add title centered at top
@@ -245,7 +245,7 @@ const handleDownloadPdf = async () => {
 
               </p>
 
-              <p className="font-normal mt-3 text-base  mb-10 leading-6">
+              <p className="font-normal mt-30 text-base  mb-10 leading-6">
 
               प्राप्त कर जाये तो उसे जारी करावें ,डिग्री का रुपया व खर्चा
               ,हर्जाना का रुपया या किसी दूसरे तरह का रुपया व खर्चा जो अदालत से
@@ -263,7 +263,7 @@ const handleDownloadPdf = async () => {
             </p>
           </div>
 
-          <div className="w-[12%] h-[400px] border-2  flex flex-col items-center justify-center gap-0 p-0">
+          <div className="w-[12%] h-[350px] border-2  flex flex-col items-center justify-center gap-0 p-0">
             <p className="rotate-270 mr-20 mt-10">अदालत</p>
             <div className="rotate-270 flex space-x-1">
               <span>मुकदमा नंo</span>
